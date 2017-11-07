@@ -1,0 +1,21 @@
+c:\users\temp.verde26.001\documents\visual studio 2015\Projects\TrabalhoDudu\TrabalhoDudu\bin\Debug\TrabalhoDudu.exe.config
+c:\users\temp.verde26.001\documents\visual studio 2015\Projects\TrabalhoDudu\TrabalhoDudu\bin\Debug\TrabalhoDudu.exe
+c:\users\temp.verde26.001\documents\visual studio 2015\Projects\TrabalhoDudu\TrabalhoDudu\bin\Debug\TrabalhoDudu.pdb
+c:\users\temp.verde26.001\documents\visual studio 2015\Projects\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.csprojResolveAssemblyReference.cache
+c:\users\temp.verde26.001\documents\visual studio 2015\Projects\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.formApresentarLista.resources
+c:\users\temp.verde26.001\documents\visual studio 2015\Projects\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.formUserSenha.resources
+c:\users\temp.verde26.001\documents\visual studio 2015\Projects\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.Properties.Resources.resources
+c:\users\temp.verde26.001\documents\visual studio 2015\Projects\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.csproj.GenerateResource.Cache
+c:\users\temp.verde26.001\documents\visual studio 2015\Projects\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.exe
+c:\users\temp.verde26.001\documents\visual studio 2015\Projects\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.pdb
+C:\Users\higor\Documents\Trabalho Eduardo-2\TrabalhoDudu\TrabalhoDudu\bin\Debug\TrabalhoDudu.exe.config
+C:\Users\higor\Documents\Trabalho Eduardo-2\TrabalhoDudu\TrabalhoDudu\bin\Debug\TrabalhoDudu.exe
+C:\Users\higor\Documents\Trabalho Eduardo-2\TrabalhoDudu\TrabalhoDudu\bin\Debug\TrabalhoDudu.pdb
+C:\Users\higor\Documents\Trabalho Eduardo-2\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.csprojResolveAssemblyReference.cache
+C:\Users\higor\Documents\Trabalho Eduardo-2\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.formApresentarLista.resources
+C:\Users\higor\Documents\Trabalho Eduardo-2\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.formUserSenha.resources
+C:\Users\higor\Documents\Trabalho Eduardo-2\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.Properties.Resources.resources
+C:\Users\higor\Documents\Trabalho Eduardo-2\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.csproj.GenerateResource.Cache
+C:\Users\higor\Documents\Trabalho Eduardo-2\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.csproj.CoreCompileInputs.cache
+C:\Users\higor\Documents\Trabalho Eduardo-2\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.exe
+C:\Users\higor\Documents\Trabalho Eduardo-2\TrabalhoDudu\TrabalhoDudu\obj\Debug\TrabalhoDudu.pdb

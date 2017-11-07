@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://soap.exemplo/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="CalculadoraServiceService" targetNamespace="http://soap.exemplo/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://soap.exemplo/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="gerarValores" type="tns:gerarValores" />
+      <xs:element name="gerarValoresResponse" type="tns:gerarValoresResponse" />
+      <xs:element name="somar" type="tns:somar" />
+      <xs:element name="somarResponse" type="tns:somarResponse" />
+      <xs:element name="validarUsuarioSenha" type="tns:validarUsuarioSenha" />
+      <xs:element name="validarUsuarioSenhaResponse" type="tns:validarUsuarioSenhaResponse" />
+      <xs:complexType name="gerarValores">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="gerarValoresResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="validarUsuarioSenha">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+          <xs:element minOccurs="0" name="arg1" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="validarUsuarioSenhaResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="somar">
+        <xs:sequence>
+          <xs:element name="arg0" type="xs:int" />
+          <xs:element name="arg1" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="somarResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="gerarValores">
+    <wsdl:part name="parameters" element="tns:gerarValores" />
+  </wsdl:message>
+  <wsdl:message name="validarUsuarioSenha">
+    <wsdl:part name="parameters" element="tns:validarUsuarioSenha" />
+  </wsdl:message>
+  <wsdl:message name="validarUsuarioSenhaResponse">
+    <wsdl:part name="parameters" element="tns:validarUsuarioSenhaResponse" />
+  </wsdl:message>
+  <wsdl:message name="somar">
+    <wsdl:part name="parameters" element="tns:somar" />
+  </wsdl:message>
+  <wsdl:message name="gerarValoresResponse">
+    <wsdl:part name="parameters" element="tns:gerarValoresResponse" />
+  </wsdl:message>
+  <wsdl:message name="somarResponse">
+    <wsdl:part name="parameters" element="tns:somarResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CalculadoraService">
+    <wsdl:operation name="gerarValores">
+      <wsdl:input name="gerarValores" message="tns:gerarValores" />
+      <wsdl:output name="gerarValoresResponse" message="tns:gerarValoresResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="validarUsuarioSenha">
+      <wsdl:input name="validarUsuarioSenha" message="tns:validarUsuarioSenha" />
+      <wsdl:output name="validarUsuarioSenhaResponse" message="tns:validarUsuarioSenhaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="somar">
+      <wsdl:input name="somar" message="tns:somar" />
+      <wsdl:output name="somarResponse" message="tns:somarResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CalculadoraServiceServiceSoapBinding" type="tns:CalculadoraService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="gerarValores">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="gerarValores">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="gerarValoresResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validarUsuarioSenha">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="validarUsuarioSenha">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="validarUsuarioSenhaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="somar">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="somar">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="somarResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CalculadoraServiceService">
+    <wsdl:port name="CalculadoraServicePort" binding="tns:CalculadoraServiceServiceSoapBinding">
+      <soap:address location="http://localhost:8080/exemplo.soap/webservices/CalculadoraService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
